@@ -1,4 +1,5 @@
 import package1.Client;
+import package1.Doctors;
 import package1.Person;
 import package1.student;
 
@@ -10,5 +11,8 @@ public class Main {
 
         Person p = new Person();
         p.getPersonName("Parul");
+
+        Doctors d = new Doctors();
+        d.getDoctors();
     }
 }
