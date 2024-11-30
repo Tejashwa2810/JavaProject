@@ -13,6 +13,10 @@ public class Client {
 
     }
 
+    public void yourName(){
+        System.out.println("Tell me your name beautiful");
+    }
+
     public void doSomething(){
         System.out.println("Hello");
     }
